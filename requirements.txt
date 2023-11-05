@@ -1,0 +1,3 @@
+gTTS==2.4.0
+ipython==8.15.0
+streamlit==1.28.0
