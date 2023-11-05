@@ -10,7 +10,7 @@ st.title("Text-to-Speech with Burmese")
 text = st.text_area("Enter text to convert to speech")
 
 # Language selection (optional, default is English)
-language = st.selectbox("Select Language", ["en","my"])
+language = st.selectbox("Select Language", ["my"])
 
 # Generate and play audio
 if st.button("Convert to Speech"):
