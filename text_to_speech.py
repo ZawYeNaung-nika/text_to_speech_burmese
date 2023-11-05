@@ -4,13 +4,13 @@ from io import BytesIO
 from IPython.display import Audio
 
 # Streamlit app title
-st.title("Text-to-Speech with Streamlit")
+st.title("Text-to-Speech with Burmese")
 
 # Text input area
 text = st.text_area("Enter text to convert to speech")
 
 # Language selection (optional, default is English)
-language = st.selectbox("Select Language", ["en", "fr", "es", "de","my"])
+language = st.selectbox("Select Language", ["en","my"])
 
 # Generate and play audio
 if st.button("Convert to Speech"):
